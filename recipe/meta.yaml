@@ -1,18 +1,18 @@
 {% set name = "cmaes" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: c5529b94d6739569b635cc33649c924ce038f3519f6a2db003ce368602d40cbe
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 791c5fb0b2ec1a3bcd873120bcadfadd60dca1c2f75adcba1b2007f977f707cc
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -27,15 +27,14 @@ test:
     - cmaes
 
 about:
-  home: "https://github.com/CyberAgent/cmaes"
+  home: https://github.com/CyberAgent/cmaes
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Lightweight Covariance Matrix Adaptation Evolution Strategy (CMA-ES) implementation for Python 3."
-  dev_url: "https://github.com/CyberAgent/cmaes"
+  summary: Lightweight Covariance Matrix Adaptation Evolution Strategy (CMA-ES) implementation for Python 3.
+  dev_url: https://github.com/CyberAgent/cmaes
 
 extra:
   recipe-maintainers:
     - c-bata
     - nmasahiro
-
