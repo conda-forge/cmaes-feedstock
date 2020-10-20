@@ -5,11 +5,11 @@ Home: https://github.com/CyberAgent/cmaes
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cmaes-feedstock/blob/master/LICENSE.txt)
 
 Summary: Lightweight Covariance Matrix Adaptation Evolution Strategy (CMA-ES) implementation for Python 3.
 
-
+Development: https://github.com/CyberAgent/cmaes
 
 Current build status
 ====================
