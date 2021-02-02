@@ -17,7 +17,6 @@ build:
 requirements:
   host:
     - pip
-    - numpy
     - python
   run:
     - numpy
