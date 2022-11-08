@@ -17,25 +17,24 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - numpy
-    - python
+    - python >=3.6
 
 test:
   imports:
     - cmaes
 
 about:
-  home: https://github.com/CyberAgent/cmaes
+  home: https://github.com/CyberAgentAILab/cmaes
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: Lightweight Covariance Matrix Adaptation Evolution Strategy (CMA-ES) implementation for Python 3.
-  dev_url: https://github.com/CyberAgent/cmaes
+  dev_url: https://github.com/CyberAgentAILab/cmaes
 
 extra:
   recipe-maintainers:
     - nomuramasahir0
     - c-bata
-    - nmasahiro
