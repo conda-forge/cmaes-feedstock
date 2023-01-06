@@ -1,5 +1,5 @@
 {% set name = "cmaes" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 425e621d453f9208601d41fbb86b54a200a2a472a11789c54d2f62cbff3aa709
+  sha256: d122f8d46377f643a150c85ffc81c4e33909a34cfdcb522ee7a6fb17ea4f232c
 
 build:
   number: 0
@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - numpy
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
