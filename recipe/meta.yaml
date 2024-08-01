@@ -1,5 +1,5 @@
 {% set name = "cmaes" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 48afc70df027114739872b50489ae6b32461c307b92d084a63c7090a9742faf9
+  sha256: 580f5e40f25f57153deaf821b2b51b50ed6b598963af3966a50aa42b40609dba
 
 build:
   number: 0
