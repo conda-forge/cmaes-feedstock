@@ -146,5 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@c-bata](https://github.com/c-bata/)
+* [@ha-mano](https://github.com/ha-mano/)
 * [@nomuramasahir0](https://github.com/nomuramasahir0/)
 
